@@ -1,0 +1,134 @@
+html, body, head, header, section, footer, table, td, tr, tbody, thead, th, ul, ol, li, dt, dd, a, div, p, img, span{
+    padding: 0;
+    margin: 0;
+    outline: none;
+    box-sizing: border-box;
+}
+footer.footer > p {
+    font-size: .8em;
+}
+ul.navbar-nav > li{
+    width: 6em;
+}
+nav>a.navbar-brand>img{
+    vertical-align: bottom;
+}
+nav>a.navbar-brand>h3{
+    font-family:    'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: rgb(120, 120, 120);
+    text-shadow: 1px 2px 2px rgb(100, 100, 100);
+    font-weight: bolder;
+}
+input.input-files{
+    width: 20em;
+}
+
+form.audioFile{
+    background-color: white;
+    border-radius: .3em;
+    box-shadow: 0 0 5px 3px #ebebeb;
+}
+.audioFile .id_number{
+    color: #9f9f9f;
+    font-weight: bold;
+}
+.audioFile .media_name{
+    color: #afafaf;
+    text-shadow: 2px 2px 2px #ebebeb;
+}
+.audioFile .name_input{
+    margin-top: .3em;
+    margin-bottom: .3em;
+    padding: .3em;
+    padding-left: .5em;
+    padding-right: .5em;
+    border: none;
+    box-shadow: 0 0 3px 1px #ebebeb;
+}
+button.control-btn{
+    display: inline-block;
+    width: 2em;
+    height: 2em;
+    text-align: center;
+    background: none;
+    border: none;
+    box-shadow: 1px 1px 2px #e1e1e1;
+    border-radius: .3em;
+}
+.audioFile .AudioStatus{
+    height: 2px;
+    margin-top: .5em;
+    margin-bottom: .5em;
+    color: green;
+}
+.audioFile .AudioStatus:hover ,.audioFile .audioLevel:hover{
+    cursor: pointer;
+}
+.audioFile .playPause{
+
+}
+.audioFile .text_details{
+    font-size: .6em;
+
+}
+.audioFile .audioLevel{
+
+}
+.audioFile .prev{}
+.audioFile .next{}
+.audioFile .fav{}
+.audioFile .mix{}
+.audioFile .del{}
+input.search_folder{
+    background: none;
+    border: none;
+    border-radius: .5em;
+    box-shadow: 0 0 3px 2px #ebebeb;
+    font-size: .7em;
+    width: 20em;
+    padding: .5em;
+    padding-left: .8em;
+    padding-right: .8em;
+}
+button.search_folder_submit{
+    background: none;
+    border: none;
+    border-radius: .5em;
+    box-shadow: 0 0 3px 2px #ebebeb;
+    font-size: .7em;
+    width: 3.5em;
+    margin-left: .5em;
+    padding: .5em;
+
+}
+
+.slider {
+  -webkit-appearance: none;
+  width: 100%;
+  height: 2px;
+  border-radius: 25%;  
+  background: #d3d3d3;
+  outline: none;
+  opacity: 0.7;
+  -webkit-transition: .2s;
+  transition: opacity .2s;
+}
+
+.slider::-webkit-slider-thumb {
+  -webkit-appearance: none;
+  appearance: none;
+  width: 10px;
+  height: 10px;
+  border-radius: 25%; 
+  background: #4CAF50;
+  cursor: pointer;
+}
+
+.slider::-moz-range-thumb {
+  width: 10px;
+  height: 10px;
+  border-radius: 25%;
+  background: #4CAF50;
+  cursor: pointer;
+}
+
